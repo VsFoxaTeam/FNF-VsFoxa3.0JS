@@ -4320,11 +4320,14 @@ class PlayState extends MusicBeatState
 	var limoSpeed:Float = 0;
 	override public function update(elapsed:Float)
 	{
-		/*if (FlxG.keys.justPressed.NINE)
+		#if debug
+		if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
-		}*/
-				healthBar.setRange(0, maxHealth);
+		}
+		#end
+		
+		healthBar.setRange(0, maxHealth);
 
 		callOnLuas('onUpdate', [elapsed]);
 
