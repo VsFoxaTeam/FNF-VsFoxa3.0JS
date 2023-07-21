@@ -74,7 +74,10 @@ class DialogueCharacterEditorState extends MusicBeatState
 
 	var curAnim:Int = 0;
 
-	override function create() {
+	override function create() 
+	{
+		FlxG.sound.playMusic(Paths.music('breakfast'), 0.5);
+		
 		persistentUpdate = persistentDraw = true;
 		camGame = new FlxCamera();
 		camHUD = new FlxCamera();

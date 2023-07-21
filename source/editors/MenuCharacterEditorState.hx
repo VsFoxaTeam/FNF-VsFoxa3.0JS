@@ -53,6 +53,8 @@ class MenuCharacterEditorState extends MusicBeatState
 		DiscordClient.changePresence("Menu Character Editor", "Editting: " + characterFile.image);
 		#end
 
+		FlxG.sound.playMusic(Paths.music('breakfast'), 0.5);
+
 		grpWeekCharacters = new FlxTypedGroup<MenuCharacter>();
 		for (char in 0...3)
 		{
