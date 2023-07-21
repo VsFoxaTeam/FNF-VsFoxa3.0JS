@@ -1670,11 +1670,12 @@ class ChartingState extends MusicBeatState
 			var wname = nums.name;
 			FlxG.log.add(wname);
 			if (wname == 'section_beats')
-			{
-				_song.notes[curSec].sectionBeats = nums.value;
-				reloadGridLayer();
-			}
-			else if (wname == 'song_speed')
+				{
+					_song.notes[curSec].sectionBeats = nums.value;
+					_song.notes[curSec].lengthInSteps = Std.int(nums.value);
+					reloadGridLayer();
+				}
+				else if (wname == 'song_speed')
 			{
 				_song.speed = nums.value;
 			}
@@ -3047,11 +3048,11 @@ class ChartingState extends MusicBeatState
 		var spr:FlxSprite = new FlxSprite(note.x + (GRID_SIZE * 0.5) - 4, note.y + GRID_SIZE / 2).makeGraphic(8, height);
 		return spr;
 	}
-
-	private function addSection(sectionBeats:Float = 4):Void
+	private function addSection(sectionBeats:Float = 4, lengthInSteps:Int = 16):Void
 	{
 		var sec:SwagSection = {
-			sectionBeats: getSectionBeats(),
+			sectionBeats: sectionBeats,
+			lengthInSteps: lengthInSteps,
 			bpm: _song.bpm,
 			changeBPM: false,
 			mustHitSection: true,
