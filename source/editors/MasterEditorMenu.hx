@@ -26,7 +26,8 @@ class MasterEditorMenu extends MusicBeatState
 		'Dialogue Editor',
 		'Dialogue Portrait Editor',
 		'Character Editor',
-		'Chart Editor'
+		'Chart Editor',
+		'Credits Editor'
 	];
 	private var grpTexts:FlxTypedGroup<Alphabet>;
 	private var directories:Array<String> = [null];
@@ -59,7 +60,7 @@ class MasterEditorMenu extends MusicBeatState
 			grpTexts.add(leText);
 			leText.snapToPosition();
 		}
-		
+
 		#if MODS_ALLOWED
 		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 42).makeGraphic(FlxG.width, 42, 0xFF000000);
 		textBG.alpha = 0.6;
@@ -69,14 +70,15 @@ class MasterEditorMenu extends MusicBeatState
 		directoryTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
 		directoryTxt.scrollFactor.set();
 		add(directoryTxt);
-		
+
 		for (folder in Paths.getModDirectories())
 		{
 			directories.push(folder);
 		}
 
 		var found:Int = directories.indexOf(Paths.currentModDirectory);
-		if(found > -1) curDirectory = found;
+		if (found > -1)
+			curDirectory = found;
 		changeDirectory();
 		#end
 		changeSelection();
@@ -96,11 +98,11 @@ class MasterEditorMenu extends MusicBeatState
 			changeSelection(1);
 		}
 		#if MODS_ALLOWED
-		if(controls.UI_LEFT_P)
+		if (controls.UI_LEFT_P)
 		{
 			changeDirectory(-1);
 		}
-		if(controls.UI_RIGHT_P)
+		if (controls.UI_RIGHT_P)
 		{
 			changeDirectory(1);
 		}
@@ -113,7 +115,8 @@ class MasterEditorMenu extends MusicBeatState
 
 		if (controls.ACCEPT)
 		{
-			switch(options[curSelected]) {
+			switch (options[curSelected])
+			{
 				case 'Character Editor':
 					LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false));
 				case 'Week Editor':
@@ -124,15 +127,17 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new DialogueCharacterEditorState(), false);
 				case 'Dialogue Editor':
 					LoadingState.loadAndSwitchState(new DialogueEditorState(), false);
-				case 'Chart Editor'://felt it would be cool maybe
+				case 'Chart Editor': // felt it would be cool maybe
 					LoadingState.loadAndSwitchState(new ChartingState(), false);
+				case 'Credits Editor':
+					MusicBeatState.switchState(new CreditsEditor());
 			}
 			FlxG.sound.music.volume = 0;
 			#if PRELOAD_ALL
 			FreeplayState.destroyFreeplayVocals();
 			#end
 		}
-		
+
 		var bullShit:Int = 0;
 		for (item in grpTexts.members)
 		{
@@ -170,13 +175,13 @@ class MasterEditorMenu extends MusicBeatState
 
 		curDirectory += change;
 
-		if(curDirectory < 0)
+		if (curDirectory < 0)
 			curDirectory = directories.length - 1;
-		if(curDirectory >= directories.length)
+		if (curDirectory >= directories.length)
 			curDirectory = 0;
-	
+
 		WeekData.setDirectoryFromWeek();
-		if(directories[curDirectory] == null || directories[curDirectory].length < 1)
+		if (directories[curDirectory] == null || directories[curDirectory].length < 1)
 			directoryTxt.text = '< No Mod Directory Loaded >';
 		else
 		{
