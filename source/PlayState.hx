@@ -1157,6 +1157,14 @@ class PlayState extends MusicBeatState
 		boyfriendGroup.add(boyfriend);
 		startCharacterLua(boyfriend.curCharacter);
 
+		if (boyfriend != null)
+			{
+				GameOverSubstate.characterName = boyfriend.deathChar;
+				GameOverSubstate.deathSoundName = boyfriend.deathSound;
+				GameOverSubstate.loopSoundName = boyfriend.deathMusic;
+				GameOverSubstate.endSoundName = boyfriend.deathConfirm;
+			}
+
 		dadGhost.visible = false;
 		dadGhost.antialiasing = true;
 		dadGhost.scale.copyFrom(dad.scale);
@@ -4326,7 +4334,7 @@ class PlayState extends MusicBeatState
 			iconP1.swapOldIcon();
 		}
 		#end
-		
+
 		healthBar.setRange(0, maxHealth);
 
 		callOnLuas('onUpdate', [elapsed]);
