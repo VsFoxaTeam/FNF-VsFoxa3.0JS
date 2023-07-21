@@ -82,14 +82,14 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['No Botplay Lag Person'],
-			['Jordan Santiago',			'jor',				'Coded everything into Psych Engine: No Botplay Lag Edition',								'https://twitter.com/JordansTweetsYT',			'FF9300'],
+			['Jordan Santiago',			'jor',				'Creator of JS Engine',								'https://twitter.com/JordansTweetsYT',			'FF9300'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
-			['shubs',				'shubs',			'Additional Programmer of Psych Engine',						'https://twitter.com/yoshubs',			'5E99DF'],
 			[''],
 			['Former Engine Members'],
+			['shubs',				'shubs',			'Ex-Programmer of Psych Engine',						'https://twitter.com/yoshubs',			'5E99DF'],
 			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',			'3E813A'],
 			[''],
 			['Engine Contributors'],

@@ -8211,6 +8211,8 @@ if (!allSicks && ClientPrefs.colorRatingFC && songMisses > 0 && ClientPrefs.hudT
 		if (ClientPrefs.iconBounceType == 'New Psych') {
 		iconP1.scale.set(1.2, 1.2);
 		iconP2.scale.set(1.2, 1.2);
+
+		callOnLuas('onIconBop', []);
 		}
 
 		iconP1.updateHitbox();

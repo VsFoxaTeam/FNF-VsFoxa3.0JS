@@ -646,7 +646,6 @@ class TitleState extends MusicBeatState
 					#if PSYCH_WATERMARKS
 					addMoreText('Shadow Mario', 15);
 					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
 					addMoreText('Jordan Santiago', 15);
 					#else
 					addMoreText('present');
@@ -687,13 +686,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('FNF');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('Vs Foxa');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Story Edition'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
