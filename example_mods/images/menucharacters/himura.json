@@ -1,0 +1,11 @@
+{
+	
+	"image": "himura",
+	"position": [
+		15,
+		40
+	],
+	"scale": 0.6,
+	"idle_anim": "Sonic idle",
+	"confirm_anim": "Sonic idle"
+}

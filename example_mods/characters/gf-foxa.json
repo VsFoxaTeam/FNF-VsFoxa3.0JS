@@ -1,0 +1,84 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				75
+			],
+			"anim": "danceLeft",
+			"fps": 30,
+			"name": "gf dance left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				134
+			],
+			"anim": "singUP",
+			"fps": 30,
+			"name": "gf dance left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-58,
+				71
+			],
+			"anim": "danceRight",
+			"fps": 30,
+			"name": "gf dance right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "cheer",
+			"fps": 30,
+			"name": "gf dance left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 30,
+			"name": "gf dance right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
+	"image": "characters/GF_assets_foxastyle",
+	"position": [
+		30,
+		270
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

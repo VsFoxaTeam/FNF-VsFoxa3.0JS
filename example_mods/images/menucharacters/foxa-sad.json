@@ -1,0 +1,11 @@
+{
+	"idle_anim": "foxa idle instance",
+	"image": "foxa-sad",
+	"position": [
+		480,
+		180
+	],
+	"flipX": false,
+	"scale": 0.5,
+	"confirm_anim": "M Dad Idle"
+}

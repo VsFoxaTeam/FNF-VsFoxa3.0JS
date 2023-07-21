@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF_assets_foxastyle.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf dance left instance 10000" x="2189" y="0" width="644" height="591" frameX="0" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10001" x="2189" y="0" width="644" height="591" frameX="0" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10002" x="2833" y="0" width="620" height="594" frameX="-26" frameY="0" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10003" x="2833" y="0" width="620" height="594" frameX="-26" frameY="0" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10004" x="0" y="589" width="629" height="594" frameX="-47" frameY="0" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10005" x="0" y="589" width="629" height="594" frameX="-47" frameY="0" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10006" x="774" y="587" width="638" height="591" frameX="-60" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10007" x="774" y="587" width="638" height="591" frameX="-60" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10008" x="774" y="587" width="638" height="591" frameX="-60" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10009" x="774" y="587" width="638" height="591" frameX="-60" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance left instance 10010" x="774" y="587" width="638" height="591" frameX="-60" frameY="-3" frameWidth="698" frameHeight="594"/>
+	<SubTexture name="gf dance right instance 10000" x="0" y="0" width="774" height="589" frameX="-3" frameY="-2" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10001" x="0" y="0" width="774" height="589" frameX="-3" frameY="-2" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10002" x="774" y="0" width="722" height="587" frameX="-21" frameY="-4" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10003" x="774" y="0" width="722" height="587" frameX="-21" frameY="-4" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10004" x="1496" y="0" width="693" height="583" frameX="-11" frameY="-8" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10005" x="1496" y="0" width="693" height="583" frameX="-11" frameY="-8" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10006" x="1496" y="583" width="638" height="591" frameX="0" frameY="0" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10007" x="1496" y="583" width="638" height="591" frameX="0" frameY="0" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10008" x="1496" y="583" width="638" height="591" frameX="0" frameY="0" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10009" x="1496" y="583" width="638" height="591" frameX="0" frameY="0" frameWidth="777" frameHeight="591"/>
+	<SubTexture name="gf dance right instance 10010" x="1496" y="583" width="638" height="591" frameX="0" frameY="0" frameWidth="777" frameHeight="591"/>
+</TextureAtlas>

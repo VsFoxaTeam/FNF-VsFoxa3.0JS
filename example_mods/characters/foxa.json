@@ -1,0 +1,84 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "idle",
+			"loop": false,
+			"name": "Foxa Idle"
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Foxa Left"
+		},
+		{
+			"offsets": [
+				0,
+				-2
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Foxa Down"
+		},
+		{
+			"offsets": [
+				0,
+				2
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Foxa Up"
+		},
+		{
+			"offsets": [
+				-17,
+				2
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Foxa Right"
+		}
+	],
+	"no_antialiasing": false,
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
+	"image": "characters/foxa",
+	"position": [
+		-460,
+		50
+	],
+	"healthicon": "foxa",
+	"flip_x": false,
+	"healthbar_colors": [
+		238,
+		171,
+		252
+	],
+	"camera_position": [
+		-50,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
