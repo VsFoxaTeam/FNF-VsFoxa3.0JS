@@ -78,7 +78,7 @@ class CoolUtil
 		return Paths.formatToSongPath(fileSuffix);
 	}
 
-	public static function difficultyString():String
+	inline public static function difficultyString():String
 	{
 		return difficulties[PlayState.storyDifficulty].toUpperCase();
 	}
@@ -104,25 +104,13 @@ class CoolUtil
 			daList = Assets.getText(path).trim().split('\n');
 		#end
 
-		for (i in 0...daList.length)
-		{
-			daList[i] = daList[i].trim();
-		}
-
-		return daList;
+		return [for (i in 0...daList.length) daList[i].trim()];
 	}
 
 	public static function listFromString(string:String):Array<String>
 	{
-		var daList:Array<String> = [];
-		daList = string.trim().split('\n');
-
-		for (i in 0...daList.length)
-		{
-			daList[i] = daList[i].trim();
-		}
-
-		return daList;
+		final daList = string.trim().split('\n');
+		return [for (i in 0...daList.length) daList[i].trim()];
 	}
 
 	public static function dominantColor(sprite:flixel.FlxSprite):Int
@@ -197,12 +185,7 @@ class CoolUtil
 
 	public static function numberArray(max:Int, ?min = 0):Array<Int>
 	{
-		var dumbArray:Array<Int> = [];
-		for (i in min...max)
-		{
-			dumbArray.push(i);
-		}
-		return dumbArray;
+		return [for (i in min...max) i];
 	}
 
 	// uhhhh does this even work at all? i'm starting to doubt

@@ -175,10 +175,8 @@ class MusicBeatState extends FlxUIState
 		MusicBeatState.switchState(FlxG.state);
 	}
 
-	public static function getState():MusicBeatState {
-		var curState:Dynamic = FlxG.state;
-		var leState:MusicBeatState = curState;
-		return leState;
+	inline public static function getState():MusicBeatState {
+		return cast(FlxG.state, MusicBeatState);
 	}
 
 	//runs whenever the game hits a step
