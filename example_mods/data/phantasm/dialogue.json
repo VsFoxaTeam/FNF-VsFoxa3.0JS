@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.08,
+			"portrait": "furious",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Please..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "furious",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I don't want to be under your control..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "reaper1",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Silly little fox..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "reaper1",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "You aren't in control, stop trying to resist."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "reaper1",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Even the power of your last transformation won't be able to help you. "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "furious",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "No..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "reaper1",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Soon, all of your thoughts and feelings won't matter. They will be mine. "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "furious2",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "GET OUT OF MY HEAD!"
+		}
+	]
+}

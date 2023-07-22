@@ -1,0 +1,59 @@
+{
+	"song": {
+		"speed": 2.1,
+		"stage": "whitt",
+		"player1": "bf",
+		"player2": "Sad-Foxa",
+		"player3": null,
+		"events": [
+			[
+				39875,
+				[
+					[
+						"Blammed Lights",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				47875,
+				[
+					[
+						"Blammed Lights",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				55000,
+				[
+					[
+						"Blammed Lights",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				56000,
+				[
+					[
+						"Blammed Lights",
+						"0",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "Gf-whit",
+		"bpm": 120,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Sacrifice"
+	}
+}

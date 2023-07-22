@@ -1,0 +1,95 @@
+{
+	"dialogue": [
+		{
+			"expression": "neutral",
+			"text": "...Huh? ",
+			"boxState": "normal",
+			"portrait": "foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "upset",
+			"text": "bidi beep.",
+			"boxState": "normal",
+			"portrait": "bf-foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "neutral",
+			"text": "Ah... it's you two...",
+			"boxState": "normal",
+			"portrait": "foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "ready",
+			"text": "beep. ",
+			"boxState": "normal",
+			"portrait": "bf-foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "neutral",
+			"text": "...Listen, I know you're here to rap battle him, but I'm afraid that I can't let you do that...",
+			"boxState": "normal",
+			"portrait": "foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "beepo scap beeboop? ",
+			"boxState": "normal",
+			"portrait": "bf-foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "neutral",
+			"text": "That isn't important. Would you mind leaving directly?",
+			"boxState": "normal",
+			"portrait": "foxa",
+			"speed": 0.05
+		},
+		{
+			"expression": "neutral",
+			"text": "...Please?",
+			"boxState": "normal",
+			"speed": 0.11,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "pissed",
+			"text": "bop bee skoo boop bep! ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "I'm sorry if that's impolite of me to ask...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "But it is best not to be here.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "boop scop bopi boh!!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.29,
+			"portrait": "foxa"
+		}
+	]
+}

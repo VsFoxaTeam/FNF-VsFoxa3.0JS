@@ -1,0 +1,68 @@
+{
+	"songs": [
+		[
+			"Bubbles",
+			"foxa",
+			[
+				255,
+				153,
+				253
+			]
+		],
+		[
+			"Burning Flames",
+			"foxa",
+			[
+				255,
+				153,
+				253
+			]
+		],
+		[
+			"Execution",
+			"creation",
+			[
+				155,
+				0,
+				0
+			]
+		],
+		[
+			"Firestorm",
+			"creation",
+			[
+				155,
+				0,
+				0
+			]
+		],
+		[
+			"Sacrifice",
+			"foxa",
+			[
+				255,
+				153,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "Whitty",
+	"difficulties": "",
+	"weekCharacters": [
+		"fox",
+		"bf",
+		"gf"
+	],
+	"storyName": "Before The Back-Alley Blitz (feat. Foxa)",
+	"weekName": "Foxa Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

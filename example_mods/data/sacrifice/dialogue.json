@@ -1,0 +1,123 @@
+{
+	"dialogue": [
+		{
+			"expression": "neutral",
+			"text": "Boyfriend.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "confused",
+			"text": "skee bop?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "You do know why I don't want you near \\nWhitmore, right?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "confused",
+			"text": "bee boh skoo...?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "bruh",
+			"text": "Well, not on my watch as of now.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf-foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "Well, he is very menacing after a handful of minutes..",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "When he gets angry, his fuse lights up, which obviously means he's near to fulminate.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "If he explodes, yes, he can regenerate\\naccording to what he told me in the past.\\nBut...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "He can still harm a lot of things around him and kill various people. Updike would have killed the both of us across the hour if I didn't notice.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "You understand that, right?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "beep.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "When I asked you to leave the alleyway, it irrelevantly wasn't.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "angy",
+			"text": "Even though I AGGRESSIVELY disapprove of you."
+		},
+		{
+			"expression": "neutral",
+			"text": "There was a promise I made to Whitmore, and it still remains a promise...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "And I swore on my life not to break it.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "confused",
+			"text": "And what is that promise?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf-foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.2,
+			"portrait": "foxa"
+		}
+	]
+}

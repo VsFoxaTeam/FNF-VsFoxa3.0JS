@@ -1,0 +1,228 @@
+{
+	"dialogue": [
+		{
+			"expression": "angy",
+			"text": "So...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "You really AREN'T going to leave.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "Are you? ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "confused",
+			"text": "brep bappity  boop.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.06,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "You know...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "You're REALLY making this harder than it needs to be...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "upset",
+			"text": "bip bep skoo de boop",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "ready",
+			"text": "bepoobe skoop!!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "bruh",
+			"text": "Boyfriend, isn't Foxa being serious right now? Sheesh.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "upset",
+			"text": "boop.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "...Don't make me fight you.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "I really DON'T want to do this tonight...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "neutral",
+			"text": "bop beep.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "angy",
+			"text": "Please...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "angy",
+			"text": "You don't understand."
+		},
+		{
+			"expression": "angy",
+			"text": "Just go home...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "confused",
+			"text": "bope bepe!!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "bruh",
+			"text": "Bragging about a bomb won't make things any finer, Boyfriend.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf-foxa"
+		},
+		{
+			"expression": "bruh",
+			"text": "It might get worse after a couple of minutes.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf-foxa"
+		},
+		{
+			"expression": "upset",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "Alright listen here, you blue haired twerp...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "If you DON'T leave...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "I'll make sure you start weeping over your existence after this very moment.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "upset",
+			"text": "beep?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "Mark my words...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "confused",
+			"text": "beep bop bippity boop.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "angy",
+			"text": "So, It's like that, huh?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-foxa",
+			"boxState": "normal",
+			"expression": "bruh",
+			"text": "Yeah, because he irritatingly keeps bragging about Whitty at this time, ever since we stepped into the pathway."
+		},
+		{
+			"expression": "angy",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "angy",
+			"text": "Well I guess I have no choice. ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "foxa"
+		}
+	]
+}

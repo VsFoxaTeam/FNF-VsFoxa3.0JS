@@ -1,0 +1,130 @@
+{
+	"dialogue": [
+		{
+			"expression": "mad",
+			"text": "I CAN'T TAKE THIS ANYMORE. ",
+			"boxState": "angry",
+			"speed": 0.025,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "upset",
+			"text": "beep.",
+			"boxState": "normal",
+			"speed": 0.06,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "I GAVE YOU A WARNING.",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "AND EVEN AFTER THAT...",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "YOU STILL REFUSED TO LEAVE.",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "WHY CAN'T YOU JUST LEAVE!?",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "IF YOU GET PAST ME, YOU WILL REGRET IT.",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "EVEN NOW...",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "IT'S OVER FOR YOU. ",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "foxa",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "HE DIDN'T DESERVE ANY OF THIS, YET YOU PERSIST ON GOING HIS WAY FOR A STUPID RAP BATTLE."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "I'M NOT GOING TO LET YOU DO THAT."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "I'M NOT GOING TO SIT HERE AND LET YOU RUIN HIS LIFE AND MAKE IT HARDER THAN IT ALREADY IS."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "IF YOU WANT TO MAKE HIM GO INSANE, YOU ARE GOING TO HAVE TO GET THROUGH ME, FIRST."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "I WILL GIVE IT MY ALL AND PLAY YOUR SICK GAME UNTIL I PHYSICALLY CAN'T ANYMORE."
+		},
+		{
+			"expression": "mad",
+			"text": "CURSE YOU.",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "mad",
+			"text": "THIS IS YOUR FAULT. ",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "foxa"
+		},
+		{
+			"expression": "shocked",
+			"text": "beep...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-foxa"
+		},
+		{
+			"expression": "bruh",
+			"text": "I swear, maybe someone was possesing her for some reason-",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf-foxa"
+		}
+	]
+}
