@@ -4668,6 +4668,7 @@ class PlayState extends MusicBeatState
 							PauseSubState.botplayLockout = true;
 						});
 				}
+			#if VIDEOS_ALLOWED
 			if(botplayTxt.text == "you have 10 seconds to run." && !botplayUsed)
 				{
 					botplayUsed = true;
@@ -4687,6 +4688,7 @@ class PlayState extends MusicBeatState
 							};
 						});
 				}
+			#end
 			if(botplayTxt.text == "you're about to die in 30 seconds" && !botplayUsed)
 				{
 					botplayUsed = true;
