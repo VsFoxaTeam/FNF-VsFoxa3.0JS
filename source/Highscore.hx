@@ -82,23 +82,23 @@ class Highscore
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		songScores.set(song, score);
-		SaveFileState.saveFile.data.songScores = songScores;
-		SaveFileState.saveFile.flush();
+		FlxG.save.data.songScores = songScores;
+		FlxG.save.flush();
 	}
 	static function setWeekScore(week:String, score:Int):Void
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		weekScores.set(week, score);
-		SaveFileState.saveFile.data.weekScores = weekScores;
-		SaveFileState.saveFile.flush();
+		FlxG.save.data.weekScores = weekScores;
+		FlxG.save.flush();
 	}
 
 	static function setRating(song:String, rating:Float):Void
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		songRating.set(song, rating);
-		SaveFileState.saveFile.data.songRating = songRating;
-		SaveFileState.saveFile.flush();
+		FlxG.save.data.songRating = songRating;
+		FlxG.save.flush();
 	}
 
 	public static function formatSong(song:String, diff:Int):String
@@ -135,17 +135,17 @@ class Highscore
 
 	public static function load():Void
 	{
-		if (SaveFileState.saveFile.data.weekScores != null)
+		if (FlxG.save.data.weekScores != null)
 		{
-			weekScores = SaveFileState.saveFile.data.weekScores;
+			weekScores = FlxG.save.data.weekScores;
 		}
-		if (SaveFileState.saveFile.data.songScores != null)
+		if (FlxG.save.data.songScores != null)
 		{
-			songScores = SaveFileState.saveFile.data.songScores;
+			songScores = FlxG.save.data.songScores;
 		}
-		if (SaveFileState.saveFile.data.songRating != null)
+		if (FlxG.save.data.songRating != null)
 		{
-			songRating = SaveFileState.saveFile.data.songRating;
+			songRating = FlxG.save.data.songRating;
 		}
 	}
 }

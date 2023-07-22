@@ -197,6 +197,7 @@ class CharacterEditorState extends MusicBeatState
 		addSettingsUI();
 
 		addCharacterUI();
+		addPropertiesUI();
 		addAnimationsUI();
 		UI_characterbox.selected_tab_id = 'Character';
 

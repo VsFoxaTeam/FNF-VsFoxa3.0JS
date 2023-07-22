@@ -1,4 +1,4 @@
-package;
+/* package;
 
 // taken from vs marcello lol
 import Controls;
@@ -258,4 +258,5 @@ class SaveFileState extends MusicBeatState
 			}
 		}
 	}
-}
+}*/
+// todo: fix this shit shsdgrrtgjftgyj
