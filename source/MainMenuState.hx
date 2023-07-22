@@ -133,7 +133,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit1:FlxText = new FlxText(12, FlxG.height - 84, 0, "Vs. Foxa 3.0", 12);
+		var versionShit1:FlxText = new FlxText(12, FlxG.height - 84, 0, "Foxa Engine - Vs. Foxa 3.0", 12);
 		versionShit1.scrollFactor.set();
 		versionShit1.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit1);

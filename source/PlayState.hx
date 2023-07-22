@@ -1790,7 +1790,7 @@ class PlayState extends MusicBeatState
 		EngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		EngineWatermark.scrollFactor.set();
 		add(EngineWatermark);
-		EngineWatermark.text = SONG.song + " " + CoolUtil.difficultyString() + " | JSE " + MainMenuState.psychEngineJSVersion;
+		EngineWatermark.text = SONG.song + " " + CoolUtil.difficultyString() + " | Foxa Engine";
 		}
 		if (ClientPrefs.hudType == 'JS Engine') {
 		// Add Engine watermark
@@ -1799,7 +1799,7 @@ class PlayState extends MusicBeatState
 		EngineWatermark.scrollFactor.set();
 		if (ClientPrefs.downScroll) EngineWatermark.y = (FlxG.height * 0.9 + 50);
 		add(EngineWatermark);
-		EngineWatermark.text = "You are now playing " + SONG.song + " on " + CoolUtil.difficultyString() + "! (JSE v" + MainMenuState.psychEngineJSVersion + ")";
+		EngineWatermark.text = "You are now playing " + SONG.song + " on " + CoolUtil.difficultyString() + "! (Foxa Engine" + ")";
 		}
 		if (ClientPrefs.hudType == 'Dave & Bambi') {
 		// Add Engine watermark
