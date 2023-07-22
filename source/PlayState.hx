@@ -48,6 +48,7 @@ import editors.ChartingState;
 import editors.CharacterEditorState;
 import flixel.group.FlxSpriteGroup;
 import flixel.input.keyboard.FlxKey;
+import haxe.ds.Vector as HaxeVector;
 import Note.EventNote;
 import openfl.events.KeyboardEvent;
 import flixel.effects.particles.FlxEmitter;
