@@ -104,6 +104,7 @@
 		<assets path='example_mods' rename='mods' embed='false'/>
 	</section>
 	<assets path='art/readme.txt' rename='do NOT readme.txt' />
+	<assets path='header.lua'/>
 
 	<assets path="assets/fonts" />
 	<!-- _______________________________ Libraries ______________________________ -->
