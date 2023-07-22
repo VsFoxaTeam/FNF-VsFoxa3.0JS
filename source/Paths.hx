@@ -202,14 +202,15 @@ class Paths
 		return 'assets/videos/$key.$VIDEO_EXT';
 	}
 
-	inline static public function ps1(key:String, ?library:String)
-		return getPath('data/$key.ps1', library);
-
 	inline static public function ini(key:String, ?library:String)
-		return getPath('data/$key.ini', library);
+		return getPath('data/$key.ini', TEXT, library);
 
-	public static inline function ndll(key:String)
-		return getPath('ndlls/$key.ndll');
+	public static inline function ndll(key:String, ?library:String)
+		return getPath('ndlls/$key.ndll', BINARY, library);
+
+	inline static public function obj(key:String, ?library:String) {
+		return getPath('models/$key.obj', BINARY, library);
+	}
 
 	static public function sound(key:String, ?library:String):Sound
 	{
