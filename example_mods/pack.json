@@ -1,7 +1,7 @@
 {
-	"name": "Name",
-	"description": "Description",
-	"restart":false,
+	"name": "Vs. Foxa",
+	"description": "uh",
+	"restart":true,
 	"runsGlobally": false,
 	"color": [170, 0, 255]
 }
