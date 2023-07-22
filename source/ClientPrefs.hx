@@ -54,6 +54,7 @@ class ClientPrefs { //default settings if it can't find a save file containing y
 	public static var timebarShowSpeed:Bool = false;
 	public static var noteSpawnTime:Float = 1;
 	public static var dynamicSpawnTime:Bool = false;
+	public static var holdNoteVisibility:Float = 1;
 	public static var oppNoteAlpha:Float = 0.65;
 	public static var lessBotLag:Bool = false;
 	public static var ratesAndCombo:Bool = false;
@@ -249,6 +250,7 @@ class ClientPrefs { //default settings if it can't find a save file containing y
 		FlxG.save.data.splashType = splashType;
 		FlxG.save.data.scoreZoom = scoreZoom;
 		FlxG.save.data.noReset = noReset;
+		FlxG.save.data.holdNoteVisibility = holdNoteVisibility;
 		FlxG.save.data.shitGivesMiss = shitGivesMiss;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.laneUnderlayAlpha = laneUnderlayAlpha;
@@ -523,6 +525,9 @@ class ClientPrefs { //default settings if it can't find a save file containing y
 		}
 		if(FlxG.save.data.noReset != null) {
 			noReset = FlxG.save.data.noReset;
+		}
+		if(FlxG.save.data.holdNoteVisibility != null) {
+			holdNoteVisibility = FlxG.save.data.holdNoteVisibility;
 		}
 		if(FlxG.save.data.healthBarAlpha != null) {
 			healthBarAlpha = FlxG.save.data.healthBarAlpha;
