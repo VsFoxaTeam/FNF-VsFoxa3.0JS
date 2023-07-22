@@ -202,6 +202,15 @@ class Paths
 		return 'assets/videos/$key.$VIDEO_EXT';
 	}
 
+	inline static public function ps1(key:String, ?library:String)
+		return getPath('data/$key.ps1', library);
+
+	inline static public function ini(key:String, ?library:String)
+		return getPath('data/$key.ini', library);
+
+	public static inline function ndll(key:String)
+		return getPath('ndlls/$key.ndll');
+
 	static public function sound(key:String, ?library:String):Sound
 	{
 		var sound:Sound = returnSound('sounds', key, library);
