@@ -41,6 +41,11 @@
       "version": null
     },
     {
+      "name": "systools",
+      "type": "haxelib",
+      "version": null
+    },
+    {
       "name": "hxjsonast",
       "type": "haxelib",
       "version": null
