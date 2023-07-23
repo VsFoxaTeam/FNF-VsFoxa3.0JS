@@ -254,7 +254,7 @@ class ChartingState extends MusicBeatState
 		hitsound = FlxG.sound.load(Paths.sound("hitsounds/" + 'osu!mania'));
 		hitsound.volume = 1;
 
-		// Paths.clearMemory();
+		Paths.clearMemory();
 
 		#if desktop
 		// Updating Discord Rich Presence
