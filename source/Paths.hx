@@ -201,13 +201,13 @@ class Paths
 		return 'assets/videos/$key.$VIDEO_EXT';
 	}
 
-	inline static public function ini(key:String, ?library:String)
+	inline static public function ini(key:String, ?library:String) // idk
 		return getPath('data/$key.ini', TEXT, library);
 
-	public static inline function ndll(key:String, ?library:String)
+	public static inline function ndll(key:String, ?library:String) // idk
 		return getPath('ndlls/$key.ndll', BINARY, library);
 
-	inline static public function obj(key:String, ?library:String)
+	inline static public function obj(key:String, ?library:String) // probably will use this when we add away3d (never)
 	{
 		return getPath('models/$key.obj', BINARY, library);
 	}
