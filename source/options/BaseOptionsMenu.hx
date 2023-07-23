@@ -143,6 +143,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		{
 			changeSelection(1);
 		}
+		if(FlxG.mouse.wheel != 0) {
+			changeSelection(-FlxG.mouse.wheel);
+		}
 
 		if (controls.BACK) {
 			close();
