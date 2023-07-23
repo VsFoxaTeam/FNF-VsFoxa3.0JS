@@ -430,7 +430,7 @@ class PlayState extends MusicBeatState
 
 		randomBotplayText = theListBotplay[FlxG.random.int(0, theListBotplay.length - 1)];
 		//trace('Playback Rate: ' + playbackRate);
-		//Paths.clearStoredMemory();
+		Paths.clearStoredMemory();
 			if (!ClientPrefs.memLeaks)
 			{
 			#if cpp
@@ -2423,7 +2423,7 @@ class PlayState extends MusicBeatState
 					Paths.music(key);
 			}
 		}
-		//Paths.clearUnusedMemory();
+		Paths.clearUnusedMemory();
 		
 		CustomFadeTransition.nextCamera = camOther;
 		if(eventNotes.length < 1) checkEventNote();
