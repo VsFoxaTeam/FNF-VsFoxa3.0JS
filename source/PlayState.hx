@@ -235,6 +235,7 @@ class PlayState extends MusicBeatState
 
 	private var timeBarBG:AttachedSprite;
 	public var timeBar:FlxBar;
+	public static var timeToStart:Float = 0;
 
 	public var ratingsData:Array<Rating> = [];
 	public var marvs:Int = 0;
@@ -2423,7 +2424,12 @@ class PlayState extends MusicBeatState
 					Paths.music(key);
 			}
 		}
-		//Paths.clearUnusedMemory();
+		
+		Paths.clearUnusedMemory();
+
+		if(timeToStart > 0){						
+			clearNotesBefore(timeToStart);
+		}
 		
 		CustomFadeTransition.nextCamera = camOther;
 		if(eventNotes.length < 1) checkEventNote();
@@ -3651,6 +3657,11 @@ class PlayState extends MusicBeatState
 		}
 		*/
 		vocals.play();
+
+		if(timeToStart > 0){
+			setSongTime(timeToStart);
+			timeToStart = 0;
+		}
 
 		if(startOnTime > 0)
 		{
