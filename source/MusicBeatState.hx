@@ -188,13 +188,13 @@ class MusicBeatState extends FlxUIState
 	//runs whenever the game hits a beat
 	public function beatHit():Void
 	{
-		//trace('Beat: ' + curBeat);
+		// nothing!
 	}
 
 	//runs whenever the game hits a section
 	public function sectionHit():Void
 	{
-		//trace('Section: ' + curSection + ', Beat: ' + curBeat + ', Step: ' + curStep);
+		// nothing!
 	}
 
 	function getBeatsOnSection()
@@ -203,9 +203,4 @@ class MusicBeatState extends FlxUIState
 		if(PlayState.SONG != null && PlayState.SONG.notes[curSection] != null) val = PlayState.SONG.notes[curSection].sectionBeats;
 		return val == null ? 4 : val;
 	}
-	/*public function stepHit():Void
-	{
-		if (curStep % 4 == 0)
-			beatHit();
-	}*/
 }
