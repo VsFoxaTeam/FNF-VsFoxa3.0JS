@@ -6998,6 +6998,7 @@ if (!allSicks && ClientPrefs.colorRatingFC && songMisses > 0 && ClientPrefs.hudT
 			startDelay: Conductor.crochet * 0.002 / playbackRate
 		});
 		}
+		callOnLuas('popUpScore', []);
 	}
 
 	public var strumsBlocked:Array<Bool> = [];
@@ -8689,6 +8690,7 @@ if (!allSicks && ClientPrefs.colorRatingFC && songMisses > 0 && ClientPrefs.hudT
 		setOnLuas('ratingName', ratingName);
 		setOnLuas('ratingFC', ratingFC);
 		setOnLuas('ratingCool', ratingCool);
+		callOnLuas('recalculateRating', []);
 	}
 
 	#if ACHIEVEMENTS_ALLOWED
